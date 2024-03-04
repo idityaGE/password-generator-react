@@ -37,8 +37,9 @@ function App() {
   
   return (
     <>
-      <div id='main' className='flex flex-wrap items-center justify-center h-screen w-full'>
-        <div className='flex flex-col items-center w-[50%] bg-emerald-500 h-52 rounded-3xl'>
+      <div id='main' className='flex flex-wrap items-center justify-center h-screen w-full bg-cover bg-no-repeat'
+      style={{backgroundImage:`url(https://images.pexels.com/photos/217316/pexels-photo-217316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)`}}>
+        <div className='flex flex-col items-center w-[50%] bg-white/30 h-52 rounded-3xl backdrop-blur-sm'>
 
           <h1 className='text-white text-2xl'>Password Generator</h1>
 
